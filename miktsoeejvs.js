@@ -27,8 +27,18 @@ function navmiksoee(nav) {
         yeldt.style.marginLeft='10%';
         yeldt.style.color='aliceblue';
         document.getElementById('tshuvak').style.backgroundImage='';
+        document.getElementById('hishquiz-tshuvak').style.width='70%';
+       document.getElementById('hishquiz-tshuvak').style.display='flex';
+        document.getElementById('hishquiz-container').style.display= 'none'
+       document.getElementById('tshuvak').style.height='100%';
     }
     else{
+
+        document.getElementById('hishquiz-tshuvak').style.width='100%';
+       document.getElementById('hishquiz-tshuvak').style.display='flex';
+        document.getElementById('hishquiz-container').style.display= 'flex'
+       document.getElementById('tshuvak').style.height='30%';
+   
         document.getElementById('hetz').style.display= "block";
         document.getElementById('controls').style.opacity='0'
                
@@ -38,7 +48,7 @@ function navmiksoee(nav) {
         
         const tk = document.getElementById('tshuvak');
         tk.style.backgroundImage='';
-        tk.style.width='50%'
+        tk.style.height='30%'
         tk.innerText="";
         tk.style.display='flex';
 
@@ -74,7 +84,8 @@ function navmiksoee(nav) {
     function controlsback(){
         
         document.getElementById('controls').style.display='flex'
-        document.getElementById('hishquiz-container').style.display='none'
+        document.getElementById('hishquiz-tshuvak').style.display='none'
+        
         document.getElementById('controls').style.opacity='1';
         
         
