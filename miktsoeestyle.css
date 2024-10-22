@@ -22,7 +22,7 @@ body {
 .navbar {
     display: flex; /* מסדר את הלוגו והטקסט באותו קו */
     align-items: center; /* מרכז אנכית */
-    justify-content: space-between; /* מרכז אופקית */
+    justify-content: space-around; /* מרכז אופקית */
     background-color: rgb(6, 1, 1); /* צבע רקע לבן */
     color: #000; /* צבע טקסט */
     padding: 20px; /* רווח פנימי */
@@ -35,12 +35,9 @@ body {
 }
 
 .logo {
-    position: relative;
-    right: 300px;
-    top: -5px;
     font-size: 250%; /* גודל גדול יותר ללוגו */
     font-weight: bold; /* הדגשת הלוגו */
-    max-width: auto;
+    
 }
 
 .logo-green {
@@ -58,16 +55,11 @@ body {
 }
 
 .nav-text {
-    position: absolute; /* מסדר את המילים באותו קו */
     flex-wrap: wrap; /* מאפשר למילים לעבור לשורה הבאה אם יש צורך */
-    right: 320px; /* מרכז אופקית את הטקסט
-    
     animation: move 10s linear infinite;*/
     background: linear-gradient(to bottom left, rgb(255, 199, 23) , rgb(214, 214, 150));
     -webkit-background-clip: text; /* Clip background to text */
     -webkit-text-fill-color: transparent; /* Make the text fill transparent */
-    max-width: 500px;
-    margin-top: 50px;
 }
 
 
