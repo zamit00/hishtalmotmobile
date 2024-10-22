@@ -3,7 +3,7 @@ body {
     background-color: #000;
     margin: 5px;
     padding: 0px;
-    max-width: 750px;
+    
     
 }
 
@@ -113,7 +113,8 @@ body {
     display: flex;
     
    box-shadow: inset 2px 2px 5px gray;
-    margin: 20px 50px; /* רווח בין הפקדים */
+    margin-bottom: 40px;
+    margin-right: 10px;
     background-color: #01060b; /* צבע רקע לפקדים */
     color:rgb(255, 199, 23); /* צבע טקסט */
     font-size: 180%; /* גודל טקסט */
