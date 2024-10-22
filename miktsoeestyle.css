@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    margin: 5px;
+    padding: 0px;
+    max-width: 600px;
+    
+}
+
+.patiach{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 199, 23);
+    padding: 15px;
+    height: 60%;
+    align-content: center;
+    font-size: 25px;
+    width: 100%;
+    margin: 0% 50% 0% 0%;
+
+}
+.navbar {
+    display: flex; /* מסדר את הלוגו והטקסט באותו קו */
+    align-items: center; /* מרכז אנכית */
+    justify-content: space-between; /* מרכז אופקית */
+    background-color: rgb(6, 1, 1); /* צבע רקע לבן */
+    color: #000; /* צבע טקסט */
+    padding: 20px; /* רווח פנימי */
+    flex: 0 0 15%;
+    font-weight: bold; /* הדגשת הטקסט */
+    font-size: 250%; /* גודל טקסט גדול יותר */
+    padding-top: 15px;
+    height: 80px;
+    max-width: 600px;  
+}
+
+.logo {
+    position: relative;
+    right: 300px;
+    top: -5px;
+    font-size: 250%; /* גודל גדול יותר ללוגו */
+    font-weight: bold; /* הדגשת הלוגו */
+    max-width: auto;
+}
+
+.logo-green {
+    background: linear-gradient(to bottom left, rgb(255, 204, 38), rgb(184, 184, 17)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    margin-left: -10px;
+}
+
+.logo-orange {
+  background: linear-gradient(to bottom left, rgb(255, 199, 23), rgb(214, 214, 150)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    margin-right: 4px;
+}
+
+.nav-text {
+    position: absolute; /* מסדר את המילים באותו קו */
+    flex-wrap: wrap; /* מאפשר למילים לעבור לשורה הבאה אם יש צורך */
+    right: 200px; /* מרכז אופקית את הטקסט
+    
+    animation: move 10s linear infinite;*/
+    background: linear-gradient(to bottom left, rgb(255, 199, 23) , rgb(214, 214, 150));
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make the text fill transparent */
+    max-width: 300px;
+}
+
+
+.nav-green {
+    color: rgb(255, 199, 23); /* ירוק כהה */
+}
+
+.nav-orange {
+    
+    margin-left:15px ;
+}
+.main{
+    display: flex;
+}
+
+.controls {
+    background-color: #000;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    width: auto;
+    height: 70%;
+    position: fixed;
+    max-height: 77vh;
+    top: 15%;
+    transition: opacity 3s ease;
+}
+.controlclick{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    opacity: 1;
+    
+    margin-top: 30px;
+    
+}
+
+
+
+.control {
+    display: flex;
+    
+   box-shadow: inset 2px 2px 5px gray;
+    margin: 20px 50px; /* רווח בין הפקדים */
+    background-color: #01060b; /* צבע רקע לפקדים */
+    color:rgb(255, 199, 23); /* צבע טקסט */
+    font-size: 180%; /* גודל טקסט */
+    width: 220px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+.hishquiz-container{
+   display: none;
+    
+    width: 110%;
+    background-color: rgb(6, 1, 1);
+   font-size: 22px;
+    padding: 0px 0px ;
+    color: rgb(255, 199, 23);
+    margin-right: 30px;
+   min-width: 300px;
+}
+
+
+#tshuvak{
+    position: relative;
+    left:0%;
+    font-size: 25px;
+    background-color:  #000;
+    color: rgb(255, 199, 23);
+    
+    word-wrap: break-word;
+    width: 100%;
+
+    margin: 0px 0px;
+    background-image: '';
+    background-position-y:bottom;
+    background-position-x:center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    min-width: 400px;
+    margin-right: 5px;
+}   
+.hishtalmot, .gemel{display: none;}
+.gotomigdal{
+    background-image:url('gohome.png') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    background-color:  #000;
+    color: rgb(255, 199, 23);
+    font-size: 20px;
+    border: none;
+    
+}
+p{
+    width: 100%;
+    display: block;
+    margin-top: 0px;   
+}
+
+
+.hetz{
+    display: none;
+    font-size: 20px;
+    position: fixed;
+    color: rgb(255, 199, 23);
+    background-image: url('arrowleft.png');
+    background-size: contain;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    top:120px;
+    right:3px;
+    margin-right: 0%;
+    transition: opacity 0.5s ease,  visibility 0.5s ease;
+}
+
+
+span{color: green;}
+
+
+.footer {
+    background-color: rgb(6, 1, 1);
+    color: white;
+    padding: 0px;
+    margin-top: 1px;
+    height: 100%;
+    width: 100%;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+#rotating {
+    display: inline-block; /* Necessary for transform to work */
+    animation: rotate 10s linear infinite; animation-delay: 10s;
+    
+}
+
+
+
+
+
+
+.answer-link {
+    color: #13c852;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
