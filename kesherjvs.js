@@ -18,6 +18,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     });
 });
 function gotohome(){
-    window.location.href = 'https://zamit00.github.io/MyWebSite/';
+    window.location.href = 'hishtalmotmobile.html';
    
 }
