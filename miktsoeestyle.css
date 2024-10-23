@@ -1,0 +1,70 @@
+
+.placetshuva {
+    display: flex;
+    flex-direction: column; /* Stack divs vertically */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.placetshuva{
+    max-width: 400px;
+    word-break: keep-all;
+    overflow: visible;
+    border: 1px solid gold;
+    font-size: 20px;
+   
+    background-color:  #000;
+    color: rgb(255, 199, 23);
+
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.quiz-container {
+
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    color: rgb(255, 199, 23);
+    border: 1px solid gold;
+   
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 199, 23);
+}
+
+.question {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.answer-link {
+    color: #13c852;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main-container{display: flex;
+justify-content:right;}
+#teshu{margin: 5px;}
+
+.imgcont{ width: 100%;
+    height: 300px;
+    background-color: #000;
+    background-image: url('hishtalmot.png');
+    background-size: contain;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 60%;
+    background-position-y:bottom ;
+}
+.gotomigdal{width:200px; height: 50px; font-size: 25px; color: gold;background-color: black;}
+.backhome{display: flex;justify-content: right;}
