@@ -54,7 +54,7 @@ min-width: 600px;
   max-width:100%;
   border-collapse: collapse;
   margin-right:35px;background-color: black;color: gold;
-      border: 1px solid gold;
+      
 }
 
 .table-container1,.table-container2.table-container3,.table-container4{margin-bottom: 20px; background-color: black;color: gold;}
