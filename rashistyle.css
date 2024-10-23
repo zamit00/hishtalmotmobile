@@ -142,6 +142,7 @@ body {
 
 .main-content {
   display: flex; /* הופך את התוכן לתצוגת פלקס */
+  flex-direction: column;
   margin-top: 60px; /* מרווח מעל התוכן */
   height: calc(100vh - 60px); /* גובה בהתאם לחלון */
   background-color: #000; /* צבע רקע */
@@ -151,16 +152,17 @@ body {
 }
 
 .divR {
-  width: 65%; /* תופס 65% מהגובה */
+  width: 100%; /* תופס 65% מהגובה */
   overflow-y: auto; /* מאפשר גלילה */
   padding: 20px; /* ריפוד פנימי */
+  height: 60%;
 }
 
 .image {
-  width: 35%; /* תופס 35% מהגובה */
+  width: 100%; /* תופס 35% מהגובה */
   background-image: url('backreka.png'); /* תמונת הרקע */
-  background-size: cover; /* מכסה את כל המיכל */
+  background-size: contain; /* מכסה את כל המיכל */
   background-repeat: no-repeat; /* לא לחזור על התמונה */
-  height: 100%; /* גובה מלא */
+  height: 40%; /* גובה מלא */
   overflow-y: hidden;
 }
