@@ -2,19 +2,19 @@
       background-color: black;}
 .rd {margin-right: 45px;font-size:22px;height: 30px;
     background-color: black;color: gold;}
-.allpage{border:border: 1px solid black;height: auto;background-color: black;color: gold;}
-#allthetables1,#allthetables2,#allthetables3{display: none;}
-.hasifa {margin-right: 10px;}
+.allpage{border:border: 1px solid gold;height: auto;background-color: black;color: gold;}
+#allthetables1,#allthetables2,#allthetables3{display: none; background-color: black;color: gold;  }
+.hasifa {margin-right: 10px; background-color: black;color: gold; }
 #mas1,#mas2,#mas3,#mas4,#mas0,#maskot{width:440px;height: 30px;border: 1px solid black;padding-right: 5px;
                                       vertical-align: middle;font-size:22px;text-align:auto;background-color: black;color: gold; }
 #tas1,#tas2,#tas3,#tas4,#tas0,#taskot{width:270px;height:30px;border: 1px solid black;
                                       vertical-align: middle;font-size:22px; background-color: black;color: gold; text-align:center;}
 #maskot,#taskot{background-color: black;color: gold;}
-#tblt{border: 1px solid gold;}
+#tblt{border: 1px solid gold; background-color: black;color: gold; }
 #sugnihul{display: none;background-color: black;color: gold; }
 .tozaa{border: 1px solid gold;margin-right:35px; width: 710px; heigth: 500px;margin-bottom:20px;background-color: black; }
 /*.radio-group {max-width: 750px;display: flex; height: 25px;padding: 5px;border: 1px solid gold; background-color: black;color: gold; ;font-size: larger;}*/
-.muzar {margin: 15px;}
+.muzar {margin: 15px; background-color: black;color: gold; }
 #product{border: 1px solid gold;margin-right: 37px;height: 50px;width: 350px;vertical-align:middle;text-align:center;font-size:25px; background-color: black;color: gold; }
 #management-type{ border: 1px solid gold; margin-right: 10px;height: 50px;width: 180px;
                  vertical-align:middle;text-align:center;font-size:25px;display: none; background-color: black;color: gold; }
