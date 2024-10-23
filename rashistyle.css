@@ -21,7 +21,7 @@ body {
     top: 0;
     right: 0;
     height: 45%;
-    width: 12%;
+    width: 20%;
     transform: translateX(100%); /* מתחיל מחוץ למסך */
     transition: transform 0.3s ease;
     margin-top: 60px;
@@ -156,6 +156,7 @@ body {
   overflow-y: auto; /* מאפשר גלילה */
   padding: 20px; /* ריפוד פנימי */
   height: 60%;
+  margin-right: 20%;
 }
 
 .image {
@@ -165,4 +166,5 @@ body {
   background-repeat: no-repeat; /* לא לחזור על התמונה */
   height: 40%; /* גובה מלא */
   overflow-y: hidden;
+  margin-right: 20%;
 }
