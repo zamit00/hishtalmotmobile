@@ -144,7 +144,7 @@ body {
   display: flex; /* הופך את התוכן לתצוגת פלקס */
   flex-direction: column;
   margin-top: 60px; /* מרווח מעל התוכן */
-  height: calc(100vh - 60px); /* גובה בהתאם לחלון */
+  height: 100%; /* גובה בהתאם לחלון */
   background-color: #000; /* צבע רקע */
   color: rgb(255, 199, 23); /* צבע טקסט */
   font-size: 20px; /* גודל טקסט */
