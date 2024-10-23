@@ -43,7 +43,7 @@ h3{padding-right: 5px; background-color: black;color: gold;  }
 .tdsmall{width: 200px;height: 30px;font-size: 22px;border: 1px solid gold;text-align: center;vertical-align:middle;}
 .tdbig{width: 400px;height: 30px;font-size: 22px;border: 1px solid gold;text-align: center;vertical-align:middle; background-color: black; }
 .tdbold{background-color: black;color: gold;height: 30px;border: 1px solid gold;text-align: center;vertical-align:middle;}
-#exposure2-preference {margin-right: 15x; background-color: black;color: gold; }
+#exposure2-preference {margin-right: 15x; background-color: black;color: gold;border: 1px solid gold; }
 
 .alltables{
 // display:flex;
@@ -54,9 +54,10 @@ min-width: 600px;
   max-width:100%;
   border-collapse: collapse;
   margin-right:35px;background-color: black;color: gold;
+      border: 1px solid gold;
 }
 
-.table-container1,.table-container2.table-container3,.table-container4{margin-bottom: 20px; background-color: black;color: gold; }
+.table-container1,.table-container2.table-container3,.table-container4{margin-bottom: 20px; background-color: black;color: gold; border: 1px solid gold;}
  .rdb1{margin-right: 15px; background-color: black;color: gold; }
  .radio-group {margin-right:35px; margin-bottom: 15px; background-color: black;color: gold; }
   
