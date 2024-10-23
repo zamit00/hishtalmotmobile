@@ -5,6 +5,6 @@ function tshuva(k){
     pElement.innerText=text;
 }
 function gotohome(){
-    window.location.href = 'https://zamit00.github.io/MyWebSite/';
+    window.location.href = 'index.html';
    
 }
