@@ -148,7 +148,7 @@ body {
   background-color: #000; /* צבע רקע */
   color: rgb(255, 199, 23); /* צבע טקסט */
   font-size: 20px; /* גודל טקסט */
-  
+  width: 70%;
 }
 
 .divR {
@@ -157,6 +157,7 @@ body {
   padding: 20px; /* ריפוד פנימי */
   height: 60%;
   margin-right: 20%;
+  width: 70%;
 }
 
 .image {
@@ -167,4 +168,6 @@ body {
   height: 40%; /* גובה מלא */
   overflow-y: hidden;
   margin-right: 20%;
+  width: 70%;
+  margin-bottom: 15%;
 }
