@@ -13,7 +13,8 @@ body {
   .hamburger {
     cursor: pointer;
     color:  rgb(255, 199, 23);
-    width:150px;
+    width:200px;
+    height:auto; 
   }
   
   .menu {
