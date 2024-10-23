@@ -174,4 +174,7 @@ body {
   overflow-x: hidden;
   margin-right: 20%;
   margin-bottom: 15%;
+  possition: fixed;
+  left: 50%;
+  top: 65%;
 }
