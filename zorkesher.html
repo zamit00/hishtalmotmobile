@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>צור קשר</title>
+    <link rel="stylesheet" href="kesherstyle.css">
+    <script src="kesherjvs.js" defer></script>
+</head>
+<body dir="rtl">
+    <div class="container">
+        
+        <header>
+            <h1>צור קשר</h1>
+        </header>
+        <main>
+            <form class="contact-form">
+                <label for="name">שם:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">אימייל:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">הודעה:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button class="send" type="submit" onclick="gotohome()">שלח</button>
+            </form>
+        </main>
+        <footer>
+            <p>זכויות יוצרים © 2024</p>
+        </footer>
+    </div>
+    <div class="backhome">
+        <button class="gotomigdal" onclick="gotohome()">חזור לדף הבית
+    </div>
+    </body>
+</html>
