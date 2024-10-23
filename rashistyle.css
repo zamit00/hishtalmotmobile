@@ -21,14 +21,15 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    height: 45%;
-    width: 20%;
+    height: 50%;
+    width: 30%;
     transform: translateX(100%); /* מתחיל מחוץ למסך */
     transition: transform 0.3s ease;
     margin-top: 60px;
     background-color: rgb(6, 1, 1);
     box-shadow: 5px 5px 10px rgb(155, 152, 152);
     color:  rgb(255, 199, 23);
+    font-size:25px;
   }
   
   .menu ul {
