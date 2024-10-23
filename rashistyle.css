@@ -157,6 +157,7 @@ body {
   padding: 20px; /* ריפוד פנימי */
   height: 60%;
   margin-right: 20%;
+  font-size: 30px;
   
 }
 
@@ -166,7 +167,7 @@ body {
   background-size: contain; /* מכסה את כל המיכל */
   background-repeat: no-repeat; /* לא לחזור על התמונה */
   height: 40%; /* גובה מלא */
-  overflow-y: hidden;
+  overflow-x: hidden;
   margin-right: 20%;
   margin-bottom: 15%;
 }
