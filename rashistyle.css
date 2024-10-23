@@ -167,7 +167,7 @@ body {
 .image {
   width: 100%; /* תופס 35% מהגובה */
   background-image: url('backreka.png'); /* תמונת הרקע */
-  background-size: contain; /* מכסה את כל המיכל */
+  background-size: 40%; /* מכסה את כל המיכל */
   background-repeat: no-repeat; /* לא לחזור על התמונה */
   height: 40%; /* גובה מלא */
   background-position: center;
