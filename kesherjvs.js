@@ -18,6 +18,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     });
 });
 function gotohome(){
-    window.location.href = 'hishtalmotmobile.html';
+    window.location.href = 'index.html';
    
 }
