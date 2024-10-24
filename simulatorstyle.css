@@ -29,7 +29,7 @@ option{font-size: 25px; background-color:black;color: gold;}
 .alltozaa{width: 100%;border:1px solid blue;
    background-color:black;color: gold; }
 .tozaa1{width: 100%;height:250px;font-size: 25px;color: gold;position: absolute; right:0px; top:300px;}
-#selecttkofa{margin-right: 5px;font-size: 20px;text-align: center;color:gold;}
+#selecttkofa{margin-right: 5px;font-size: 20px;text-align: center;color:gold; background-color: black; border: 1px solid green; }
 
 .koterettozaa{font-size: 25px;color: gold;text-decoration: underline;margin-top: 10px; margin-right: 35px;background-color:black; }
 
@@ -44,7 +44,7 @@ option{font-size: 25px; background-color:black;color: gold;}
 #tx1{margin-right: 7px;}
 #lblfirst00,#lblfirst0{color:gold;font-weight: bold; background-color:black; }
 #selectribit{width:60px; height: 45px;position: absolute;font-size: 20px;text-align: center;top:90px;
-    left: 70px; color: gold; background-color:black; }
+    left: 70px; color:gold; background-color: black; border: 1px solid green; }
 
 
 
