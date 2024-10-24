@@ -183,4 +183,5 @@ body {
   background-size: contain !important ; /* מכסה את כל המיכל */
   background-repeat: no-repeat; /* לא לחזור על התמונה */
   z-index: 5;
+  border: 1px solid gold;
 }
