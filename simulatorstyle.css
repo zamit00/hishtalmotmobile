@@ -45,7 +45,8 @@ option{font-size: 25px; background-color:black;color: gold;}
 #tx1{margin-right: 7px;}
 #lblfirst00,#lblfirst0{color:gold;font-weight: bold; background-color:black; }
 #selectribit{width:60px; height: 45px;position: absolute;font-size: 20px;text-align: center;top:90px;
-    left: 70px; color:gold; background-color: black; border: 1px solid green; }
+    left: 70px; color:gold; background-color: black; border: 1px solid gold; 
+             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}
 
 
 
