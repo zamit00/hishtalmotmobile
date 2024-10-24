@@ -97,7 +97,7 @@ option{font-size: 25px; background-color:black;color: gold;}
         transform: translateY(-2px); /* Lift effect */
     }
     .buttonsrisk{position: fixed;top: 30px;right: 610px;}
-    .iframe{display: none;}
+    .iframe{display: none; width: 100%;}
     .iframe{position:absolute;top:755px;}
     #cls{background-color: black;top:-100px;left:50px;position: absolute;}
     .result{position: fixed;border: 4px double green; width: 170px;
