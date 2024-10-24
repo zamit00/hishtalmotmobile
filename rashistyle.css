@@ -1,14 +1,30 @@
-body {
-  
-    margin: 0; /* להסיר ריפוד מהברירת מחדל */
-    font-family: Arial, sans-serif; /* סגנון פונט */
-    direction: rtl; /* תמיכה בעברית */
-    padding: 0;
-    background-color: rgb(6, 1, 1);
-    color:  rgb(255, 199, 23);
-    display: flex;
-    flex-direction: column;
-  }
+/* הוספת גובה מינימלי במקום גובה מוחלט */
+html, body {
+  height: 100%; /* גובה מינימלי לגוף */
+  overflow-y: auto; /* מאפשר גלילה בגוף */
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  min-height: 100vh; /* גובה מינימלי של התוכן לפי גובה החלון */
+  background-color: #000;
+  color: rgb(255, 199, 23);
+  font-size: 20px;
+  width: 80%;
+  overflow-y: auto; /* גלילה אם התוכן חורג */
+}
+
+.divR {
+  width: 100%;
+  padding: 20px;
+  margin-right: 15%;
+  font-size: 35px;
+  text-align: justify;
+  overflow-y: auto; /* מאפשר גלילה פנימית */
+  max-height: 60vh; /* גובה מקסימלי לפי גובה המסך */
+}
 
 
 .xsign {
@@ -152,30 +168,6 @@ body {
   font-weight: bold; 
 }
 
-
-.main-content {
-  display: flex; /* הופך את התוכן לתצוגת פלקס */
-  flex-direction: column;
-  margin-top: 60px; /* מרווח מעל התוכן */
-  height: 100%; /* גובה בהתאם לחלון */
-  background-color: #000; /* צבע רקע */
-  color: rgb(255, 199, 23); /* צבע טקסט */
-  font-size: 20px; /* גודל טקסט */
-  width: 80%;
-  
-}
-
-.divR {
-  width: 100%; /* תופס 65% מהגובה */
-  overflow-y: auto; /* מאפשר גלילה */
-  padding: 20px; /* ריפוד פנימי */
-  max-height: 60%;
-  margin-right:15%;
-  font-size: 35px;
-  text-align: justify;
-  
-  
-}
 
 
 .image {
