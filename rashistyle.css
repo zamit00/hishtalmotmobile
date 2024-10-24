@@ -167,11 +167,10 @@ body {
 
 
 .image {
-  width: 100%;/* תופס 35% מהגובה */
-  height: auto;
-  background-image: url('backreka.png'); /* תמונת הרקע */
-  background-size: cover; /* מכסה את כל המיכל */
+  width: 30%;/* תופס 35% מהגובה */
+  height: 30%;
+  background-image: url('backreka.png') !important; /* תמונת הרקע */
+  background-size: contain !important ; /* מכסה את כל המיכל */
   background-repeat: no-repeat; /* לא לחזור על התמונה */
-  height: 30%; /* גובה מלא */
-
+  z-index: 5;
 }
