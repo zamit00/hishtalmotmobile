@@ -21,8 +21,8 @@ body{background-color: black;}
 .lblsel{position:absolute; margin-right: 50px;margin-bottom: 50px;display: inline-flex;width: 400px;background-color:black; color: gold; }
 option{font-size: 25px; background-color:black;color: gold;}
 
-.gotomigdal{width: 250px; height: 40px;font-size: 25px; background-color: white;
-           border: 1px solid black; color: blue;position: absolute; top: 510px; right: 600px;
+.gotomigdal{width: 250px; height: 40px;font-size: 25px; background-color: black;
+           border: 1px solid black; color: gold;position: absolute; top: 510px; right: 600px;
            text-align: center;}
 .image{width: 100%;border:1px solid blue;
        background-image: url("hash.png");
