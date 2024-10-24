@@ -1,7 +1,7 @@
 body{background-color: black;}
 .main{display: flex;height:100%; width: auto;margin-top:0px;margin-bottom: -1px;border-left: 0px solid snow;flex-direction: column;}
 .tofes{border: 1px solid gold;   flex-grow: 1;flex-grow: 1;background-color: black;}
-.netunim{flex-grow: 1;border: 1px solid blue;display: flex;position: relative;height: 200px;}
+.netunim{flex-grow: 1;border: 1px solid gold;display: flex;position: relative;height: 200px;}
 .radio-group{ display:flex; flex-direction: column;
 ;height: 120px; justify-content:space-evenly;position: relative;
 ;font-size: 30px;color: gold;flex-grow: 1; margin-left: 10px;margin-right: 15px;background-color:black;}
@@ -98,7 +98,7 @@ option{font-size: 25px; background-color:black;color: gold;}
     .buttonsrisk{position: fixed;top: 30px;right: 610px;}
     .iframe{display: none;}
     .iframe{position:absolute;top:755px;}
-    #cls{background-color: #e01541;top:-100px;left:50px;position: absolute;}
+    #cls{background-color: black;top:-100px;left:50px;position: absolute;}
     .result{position: fixed;border: 4px double green; width: 170px;
         height: 35px;top: 60px;right: 590px;left: 90px; color:#1f10a7;
         display: flex;align-items: center;font-weight: bold;
