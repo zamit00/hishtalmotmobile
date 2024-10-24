@@ -162,6 +162,7 @@ body {
   color: rgb(255, 199, 23); /* צבע טקסט */
   font-size: 20px; /* גודל טקסט */
   width: 80%;
+  
 }
 
 .divR {
@@ -185,4 +186,5 @@ body {
   background-repeat: no-repeat; /* לא לחזור על התמונה */
   z-index: 5;
   border: 1px solid gold;
+  margin-right: 50%;
 }
