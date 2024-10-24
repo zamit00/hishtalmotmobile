@@ -157,8 +157,8 @@ body {
   width: 100%; /* תופס 65% מהגובה */
   overflow-y: auto; /* מאפשר גלילה */
   padding: 20px; /* ריפוד פנימי */
-  height: 60%;
-  margin-right: 15%;
+  max-height: 60%;
+  margin-right:25px;
   font-size: 30px;
   
 }
