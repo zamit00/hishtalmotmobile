@@ -13,9 +13,9 @@ body {
 
 .xsign {
   position: fixed;
-  font-size: 35px;
+  font-size: 30px;
   top: 50px; /* מיקום מלמעלה */
-  right: 600px; 
+  right: 87%; 
   color: gold;
   cursor: pointer; /* להוסיף כדי שיהיה ברור שניתן ללחוץ */
 }
@@ -33,7 +33,7 @@ body {
   top: 0;
   right: 0;
   height: 50%;
-  width: 610px;
+  width: 90%;
   transform: translateX(100%); /* מתחיל מחוץ למסך */
   transition: transform 0.3s ease;
   margin-top: 60px;
