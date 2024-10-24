@@ -1,5 +1,5 @@
-
 const hamburger = document.getElementById('hamburger');
+const xsign = document.getElementById('xsign');
 const menu = document.getElementById('menu');
 
 // פתיחה/סגירה של התפריט על ידי לחיצה על כפתור ההמבורגר
@@ -7,9 +7,13 @@ hamburger.addEventListener('click', () => {
   menu.classList.toggle('active');
 });
 
+// סגירת התפריט על ידי לחיצה על כפתור ה-xsign
+xsign.addEventListener('click', () => {
+  menu.classList.remove('active');
+});
+
 // סגירת התפריט כאשר לוחצים מחוץ לתפריט
 document.addEventListener('click', (e) => {
-  // בדיקה אם הלחיצה לא הייתה על התפריט ולא על כפתור ההמבורגר
   if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
     menu.classList.remove('active');
   }
@@ -19,23 +23,21 @@ document.addEventListener('click', (e) => {
 let startX = 0;
 let endX = 0;
 
-// זיהוי תחילת מגע
 menu.addEventListener('touchstart', (e) => {
   startX = e.touches[0].clientX;
 });
 
-// זיהוי סוף מגע
 menu.addEventListener('touchend', (e) => {
   endX = e.changedTouches[0].clientX;
 
-  // אם יש החלקה מימין לשמאל (החלקה משמעותית)
   if (endX > startX + 50) {
-    menu.classList.remove('active'); // סגירת התפריט
-  }
-});
-document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'hidden') {
-    menu.classList.remove('active'); // סגירת התפריט כאשר הדף לא גלוי
+    menu.classList.remove('active');
   }
 });
 
+// סגירת התפריט כאשר הדף לא גלוי
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') {
+    menu.classList.remove('active');
+  }
+});
