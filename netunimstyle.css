@@ -12,7 +12,7 @@ body{background-color: black;
 #tas1,#tas2,#tas3,#tas4,#tas0,#taskot{width:270px;height:30px;border: 1px solid gold;
                                       vertical-align: middle;font-size:22px; background-color: black;color: gold; text-align:center;}
 #maskot,#taskot{background-color: black;color: gold;}
-#tblt{border: 1px solid gold; background-color: black;color: gold; }
+#tblt{ background-color: black;color: gold; }
 #sugnihul{display: none;background-color: black;color: gold; }
 .tozaa{border: 1px solid gold;margin-right:35px; width: 710px; heigth: 500px;margin-bottom:20px;background-color: black; }
 /*.radio-group {max-width: 750px;display: flex; height: 25px;padding: 5px;border: 1px solid gold; background-color: black;color: gold; ;font-size: larger;}*/
