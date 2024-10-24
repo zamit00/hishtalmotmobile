@@ -14,8 +14,8 @@ body {
 .xsign {
   position: fixed;
   font-size: 40px;
-  top: 50px; /* מיקום מלמעלה */
-  right: 95%; 
+  top: 45px; /* מיקום מלמעלה */
+  right: 92%; 
   color: gold;
   cursor: pointer; /* להוסיף כדי שיהיה ברור שניתן ללחוץ */
 
