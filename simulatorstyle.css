@@ -76,7 +76,7 @@ option{font-size: 25px; background-color:black;color: gold;}
         width: 120px;height: 70px; margin-right: 70px;}
      .btnrisk {
         background-color: black; /* Green background */
-        color: gold; /* White text */
+        color: black; /* White text */
         padding: 5px; /* Padding */
         border-radius: 5px; /* Rounded corners */
         text-align: center; /* Center text */
@@ -113,7 +113,7 @@ option{font-size: 25px; background-color:black;color: gold;}
             
             font-size: 25px;
             font-weight: bold;
-            
+            color: black;
             border: 2px solid #ff6b6b;
             border-radius: 15px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
