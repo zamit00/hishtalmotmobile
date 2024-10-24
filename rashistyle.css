@@ -115,10 +115,12 @@ html, body {
 }
 .nav-green {
     color: rgb(255, 199, 23); /* ירוק כהה */
+  font-size: 35px;
 }
 
 .nav-orange {
     margin-left:15px ;
+  font-size: 35px;
 }
 .logo {
     position: absolute;
