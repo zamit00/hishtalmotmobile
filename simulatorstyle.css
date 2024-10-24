@@ -63,6 +63,7 @@ option{font-size: 25px; background-color:black;color: gold;}
         justify-content: center;align-items: center;
     }
     .label-button{
+        border: 1px solid gold;
         display: block;
         background-color: black;
         color: gold; /* White text */
