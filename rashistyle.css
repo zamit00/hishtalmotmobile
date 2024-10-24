@@ -11,57 +11,56 @@ body {
   }
 
 
-.xsign{
-       position: fixed;
-       font-size:35px;
-       top: 50px; /* מיקום מלמעלה */
-       right: 600px; 
-       color: gold;
-      }
-       
-       
-       .hamburger {
-    cursor: pointer;
-    color:  rgb(255, 199, 23);
-    width:200px;
-    height:auto; 
-    font-size: 35px;
-  }
-  
-  .menu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 50%;
-    width: 610px;
-    transform: translateX(100%); /* מתחיל מחוץ למסך */
-    transition: transform 0.3s ease;
-    margin-top: 60px;
-    background-color: rgb(6, 1, 1);
-    box-shadow: 5px 5px 10px rgb(155, 152, 152);
-    color:  rgb(255, 199, 23);
-    font-size:40px;
-  }
-  
-  .menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    
-  }
-  
-  .menu ul li {
-    padding: 20px;
-  }
-  
-  .menu ul li a {
-    color:  rgb(255, 199, 23);
-    text-decoration: none;
-  }
-  
-  .menu.active {
-    transform: translateX(0); /* נכנס למסך */
-  }
+.xsign {
+  position: fixed;
+  font-size: 35px;
+  top: 50px; /* מיקום מלמעלה */
+  right: 600px; 
+  color: gold;
+  cursor: pointer; /* להוסיף כדי שיהיה ברור שניתן ללחוץ */
+}
+
+.hamburger {
+  cursor: pointer;
+  color: rgb(255, 199, 23);
+  width: 200px;
+  height: auto; 
+  font-size: 35px;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50%;
+  width: 610px;
+  transform: translateX(100%); /* מתחיל מחוץ למסך */
+  transition: transform 0.3s ease;
+  margin-top: 60px;
+  background-color: rgb(6, 1, 1);
+  box-shadow: 5px 5px 10px rgb(155, 152, 152);
+  color: rgb(255, 199, 23);
+  font-size: 40px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  padding: 20px;
+}
+
+.menu ul li a {
+  color: rgb(255, 199, 23);
+  text-decoration: none;
+}
+
+.menu.active {
+  transform: translateX(0); /* נכנס למסך */
+}
   
   /* אייקון דף הבית */
   .home-icon {
