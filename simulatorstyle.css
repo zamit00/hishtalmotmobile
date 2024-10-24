@@ -25,7 +25,7 @@ option{font-size: 25px; background-color:black;color: gold;}
            border: 1px solid black; color: gold;position: absolute; top: 510px; right: 600px;
            text-align: center;}
 .image{display: flex;
-        width: 100%; hight: auto;
+        width: 100%; hight: 40%;
        border:1px solid gold;
        background-image: url("hash.png");
        background-size: cover;
