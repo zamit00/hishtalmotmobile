@@ -18,14 +18,13 @@ html, body {
 }
 
 .divR {
-  width: 100%;
+  width: 80%;
   padding: 20px;
   margin-right: 5%;
   font-size: 25px;
   text-align: justify;
   overflow-y: auto; /* מאפשר גלילה פנימית */
   max-height: 60vh; /* גובה מקסימלי לפי גובה המסך */
-  word-wrap: break-word; /* או */
   overflow-wrap: break-word;
 }
 
