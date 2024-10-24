@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    margin: 5px;
+    padding: 0px;
+    
+}
+
+.patiach{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 199, 23);
+    padding: 15px;
+    height: 60%;
+    align-content: center;
+    font-size: 25px;
+    width: 60%;
+    margin: 5% 20%;
+
+}
+.navbar {
+    display: flex; /* מסדר את הלוגו והטקסט באותו קו */
+    align-items: center; /* מרכז אנכית */
+    justify-content: space-between; /* מרכז אופקית */
+    background-color: rgb(6, 1, 1); /* צבע רקע לבן */
+    color: #000; /* צבע טקסט */
+    padding: 20px; /* רווח פנימי */
+    flex: 0 0 15%;
+    font-weight: bold; /* הדגשת הטקסט */
+    font-size: 250%; /* גודל טקסט גדול יותר */
+    padding-top: 15px;
+    height: 80px;  
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: -5px;
+    font-size: 250%; /* גודל גדול יותר ללוגו */
+    font-weight: bold; /* הדגשת הלוגו */
+}
+
+.logo-green {
+    background: linear-gradient(to bottom left, rgb(255, 204, 38), rgb(184, 184, 17)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    margin-left: -10px;
+}
+
+.logo-orange {
+  background: linear-gradient(to bottom left, rgb(255, 199, 23), rgb(214, 214, 150)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    margin-right: 4px;
+}
+
+.nav-text {
+    position: absolute; /* מסדר את המילים באותו קו */
+    flex-wrap: wrap; /* מאפשר למילים לעבור לשורה הבאה אם יש צורך */
+    right: 300px; /* מרכז אופקית את הטקסט
+    
+    animation: move 10s linear infinite;*/
+    background: linear-gradient(to bottom left, rgb(255, 199, 23) , rgb(214, 214, 150));
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make the text fill transparent */
+}
+
+
+.nav-green {
+    color: rgb(255, 199, 23); /* ירוק כהה */
+}
+
+.nav-orange {
+    
+    margin-left:15px ;
+}
+.main{
+    display: flex;
+}
+
+.controls {
+    background-color: #000;
+    max-width: 250px;
+    display: flex;
+    flex-direction: row;
+    
+    width: 30%;
+    height: 97%;
+    position: fixed;
+    max-height: 77vh;
+    top: 20%;
+    
+}
+.controlclick{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 3s ease;
+    
+}
+
+
+
+.control {
+    
+   
+    margin: 0 10px; /* רווח בין הפקדים */
+    background-color: #01060b; /* צבע רקע לפקדים */
+    color:rgb(255, 199, 23); /* צבע טקסט */
+    text-align: center; /* מרכז את הטקסט */
+    font-size: 200%; /* גודל טקסט */
+    width: 160px;
+    height: 80px;
+    box-shadow: 10px 10px 5px 5px #303132;
+    text-decoration: none;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 100%;
+}
+
+.hishquiz-container{
+   display: none;
+    
+    width: 45%;
+    background-color: rgb(6, 1, 1);
+   font-size: 22px;
+    padding: 0px 0px ;
+    color: rgb(255, 199, 23);
+    margin-right: 250px;
+   
+}
+
+
+#tshuvak{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color:  #000;
+    color: rgb(255, 199, 23);
+    text-align: justify;
+    word-wrap: break-word;
+    width: 55%;
+    margin: 0px 50px;
+    background-image: '';
+    background-position-y:bottom;
+    background-position-x:center;
+    background-repeat: no-repeat;
+    background-size: 22%;
+}   
+.hishtalmot, .gemel{display: none;}
+.gotomigdal{
+    background-image:url('gohome.png') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    background-color:  #000;
+    color: rgb(255, 199, 23);
+    font-size: 20px;
+    border: none;
+    
+}
+p{
+    width: 100%;
+    display: block;
+    margin-top: 0px;   
+}
+
+
+.hetz{
+    visibility: hidden;
+    font-size: 20px;
+    color: rgb(255, 199, 23);
+    background-image: url('arrowleft.png');
+    background-size: contain;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 97%;
+    margin-right: 0%;
+    transition: opacity 1s ease,  visibility 1s ease;
+}
+
+
+span{color: green;}
+
+
+.footer {
+    background-color: rgb(6, 1, 1);
+    color: white;
+    padding: 0px;
+    margin-top: 1px;
+    height: 100%;
+    width: 100%;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+#rotating {
+    display: inline-block; /* Necessary for transform to work */
+    animation: rotate 10s linear infinite; animation-delay: 10s;
+    
+}
+
+
+
+
+
+
+.answer-link {
+    color: #13c852;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.hidden {
+    opacity: 0;
+    height: 0; /* Collapse height */
+    visibility: hidden; /* Prevent interaction */
+    transition: opacity 3s ease, height 3s ease, visibility 3s ease; /* Transition for opacity and height */
+}
+
+.visible {
+    opacity: 1;
+    height: auto; /* Set height back to auto */
+    visibility: visible; /* Allow interaction */
+}
+
