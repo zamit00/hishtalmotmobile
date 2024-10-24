@@ -1,6 +1,4 @@
-tuwindow.onload = function() {
-
-   
+window.onload = function() { 
     sumsum();}
 
 function gotohome(){
