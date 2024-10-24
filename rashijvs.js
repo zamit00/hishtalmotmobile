@@ -33,4 +33,9 @@ menu.addEventListener('touchend', (e) => {
     menu.classList.remove('active'); // סגירת התפריט
   }
 });
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') {
+    menu.classList.remove('active'); // סגירת התפריט כאשר הדף לא גלוי
+  }
+});
 
