@@ -11,7 +11,8 @@ body {
   }
 
 
-.xsign{position: absolute;
+.xsign{
+       position: absolute;
        font-size:35px;
        top: 10px; /* מיקום מלמעלה */
        right: 600px; 
