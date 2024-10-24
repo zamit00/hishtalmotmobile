@@ -178,8 +178,8 @@ body {
 
 
 .image {
-  width: 30%;/* תופס 35% מהגובה */
-  height: 250px;
+  width: 500px;/* תופס 35% מהגובה */
+  height: 400px;
   background-image: url('https://github.com/zamit00/hishtalmotmobile/blob/main/backreka.png') !important; /* תמונת הרקע */
   background-size: contain !important ; /* מכסה את כל המיכל */
   background-repeat: no-repeat; /* לא לחזור על התמונה */
