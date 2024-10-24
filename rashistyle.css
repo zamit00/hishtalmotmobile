@@ -13,11 +13,12 @@ body {
 
 .xsign {
   position: fixed;
-  font-size: 30px;
+  font-size: 40px;
   top: 50px; /* מיקום מלמעלה */
   right: 95%; 
   color: gold;
   cursor: pointer; /* להוסיף כדי שיהיה ברור שניתן ללחוץ */
+
 }
 
 .hamburger {
