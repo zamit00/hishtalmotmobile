@@ -24,12 +24,14 @@ option{font-size: 25px; background-color:black;color: gold;}
 .gotomigdal{width: 250px; height: 40px;font-size: 25px; background-color: black;
            border: 1px solid black; color: gold;position: absolute; top: 510px; right: 600px;
            text-align: center;}
-.image{width: 100%; hight: auto;
-       border:1px solid blue;
+.image{display: flex;
+        width: 100%; hight: auto;
+       border:1px solid gold;
        background-image: url("hash.png");
        background-size: cover;
        background-repaet:no-repeat;
-       background-color: blach;
+       background-color: black;
+       
       }
 
 .alltozaa{width: 100%;
