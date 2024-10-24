@@ -169,7 +169,8 @@ html, body {
 }
 
 .image {
-  width: 370px;
+  margin-top: 10px;
+  width: 350px;
   height: 400px;
   background-image: url('backreka.png') !important;
   background-size: contain !important;
