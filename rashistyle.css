@@ -49,7 +49,7 @@ html, body {
   position: absolute;
   top: 25px;
   right: 0;
-  height: 62%;
+  height: 70%;
   width: 100%;
   transform: translateX(100%); /* מתחיל מחוץ למסך */
   transition: transform 0.3s ease;
