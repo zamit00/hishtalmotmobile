@@ -20,7 +20,7 @@ html, body {
 .divR {
   width: 100%;
   padding: 20px;
-  margin-right: 10%;
+  margin-right: 5%;
   font-size: 30px;
   text-align: justify;
   overflow-y: auto; /* מאפשר גלילה פנימית */
