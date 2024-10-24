@@ -12,10 +12,11 @@ body {
 
 
 .xsign{
-       position: absolute;
+       position: fixed;
        font-size:35px;
-       top: 10px; /* מיקום מלמעלה */
+       top: 50px; /* מיקום מלמעלה */
        right: 600px; 
+       color: gold;
       }
        
        
